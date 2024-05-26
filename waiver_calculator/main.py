@@ -19,9 +19,9 @@ def main():
 
      # Print student information
     print(student_info.get_student_info())
-    print(student_info.get_others_information())
-    print(student_info.course_taken())
-    print(student_info.enrollment_record())
+    print(f"District: " + student_info.get_others_information())
+    print(f"Course taken: " + student_info.course_taken())
+    print(f"Enrolled: " + student_info.enrollment_record())
     print("\n")
 
     # Calculate tuition fee after waiver
