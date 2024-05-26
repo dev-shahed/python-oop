@@ -10,14 +10,5 @@ def main():
     s1 = Student("Shahed", 15, "Male", "Ten", 5.00, 2)
     s1.print_student()
 
-    # Checking instances
-    print("\nKnowing instance:")
-    p1 = Person("SA", 10, "Male")
-    print(p1.__dict__)
-
-    print(isinstance(t1, Person))  # True
-    print(isinstance(s1, Person))  # True
-    print(isinstance(p1, Student))  # False
-
 if __name__ == "__main__":
     main()
