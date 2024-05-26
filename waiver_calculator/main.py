@@ -9,13 +9,7 @@ def main():
     admin = Administrator("Admin", 1, "admin@gmail.com", 12345)
     student_info = StudentInformation("Rubaiyat Ferdousi", 111, "rubacse21@gmail.com", "From Bogura")
     exam_controller = ExamController(3.8, 12)
-
-    # Print administrator information
-    print(admin.get_student_info())
-    print(admin.course_information())
-    print(admin.result())
-    print(admin.accounts_ledger())
-    print("\n")
+   
 
      # Print student information
     print(student_info.get_student_info())
